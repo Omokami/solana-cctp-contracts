@@ -54,19 +54,19 @@ pub mod message_transmitter {
         instructions::transfer_ownership(ctx, &params)
     }
 
-    pub fn accept_ownership(
-        ctx: Context<AcceptOwnershipContext>,
-        params: AcceptOwnershipParams,
-    ) -> Result<()> {
-        instructions::accept_ownership(ctx, &params)
-    }
+    // pub fn accept_ownership(
+    //     ctx: Context<AcceptOwnershipContext>,
+    //     params: AcceptOwnershipParams,
+    // ) -> Result<()> {
+    //     instructions::accept_ownership(ctx, &params)
+    // }
 
-    pub fn update_pauser(
-        ctx: Context<UpdatePauserContext>,
-        params: UpdatePauserParams,
-    ) -> Result<()> {
-        instructions::update_pauser(ctx, &params)
-    }
+    // pub fn update_pauser(
+    //     ctx: Context<UpdatePauserContext>,
+    //     params: UpdatePauserParams,
+    // ) -> Result<()> {
+    //     instructions::update_pauser(ctx, &params)
+    // }
 
     pub fn update_attester_manager(
         ctx: Context<UpdateAttesterManagerContext>,
